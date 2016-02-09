@@ -18,9 +18,9 @@
   :tasks {
     :default {
       :tool "atllbuild"
-      :source ["src/**.swift"]
+      :sources ["src/**.swift"]
       :name "dummyPackageB"
-      :outputType "static-library"
+      :output-type "static-library"
     }
   }
 )
